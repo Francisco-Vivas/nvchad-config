@@ -10,6 +10,23 @@ sudo dnf install neovim ripgrep
 ```
 brew install neovim ripgrep
 ```
+
+### Rust & Cargo
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+### tree-sitter cli
+
+With `cargo`
+```
+cargo install tree-sitter-cli
+```
+
+Or with `npm`
+```
+npm install tree-sitter-cli
+```
+
 ## Installation
 
 ```

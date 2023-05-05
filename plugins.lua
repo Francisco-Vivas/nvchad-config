@@ -9,7 +9,7 @@ local plugins = {
     "neovim/nvim-lspconfig",
     config = function()
       require "plugins.configs.lspconfig"
-      require "custom.plugins.lspconfig"
+      require "custom.configs.lspconfig"
     end,
   },
 
@@ -34,9 +34,7 @@ local plugins = {
 
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = function()
-      return require "custom.plugins.treesitter"
-    end
+    opts = require "custom.configs.treesitter"
   },
 
   -- multi cursor
