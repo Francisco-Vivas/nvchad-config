@@ -1,3 +1,5 @@
+require "custom.configs.vim-visual-multi"
+
 local M = {}
 
 M.general = {
